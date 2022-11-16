@@ -8,13 +8,13 @@ Now that you are all set up, it's time to learn a little more about the tools of
     - GitHub hosts Git repositories and allows for collaboration and communication between developers. 
 3. Why do we create a branch? 
     - A branch allows developers to work on the code without affecting the default branch. This gives collaborators a chance to review a developer's work before the branch is merged.
-4. What is the purpose of a Pull Request?
+4. What is the purpose of a Pull Request? 
     - Creating a pull request asks collaborators for feedback and advice on the changes that were made on the branch. 
 5. What is the command you can use to switch between branches? For example you are working on FIRSTNAME-LASTNAME branch and you want to switch back to main.
     - You would use git checkout main to switch from FIRSTNAME-LASTNAME in that example.
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
     - 'Git fetch' downloads contents from a remote repository. 'Git merge' combines lines of development from two different branches together. 'Git pull' updates the local line of development from the remote line of development. 
 7. What is a merge conflict?
-    - Merge conflicts happen when you merge two branches that have conflicting commits and you need to choose which changes to merge.
+    -  Merge conflicts happen when you merge two branches that have conflicting commits and you need to choose which changes to merge.
 8. How do you resolve a merge conflict?
     - In the pull request section of the repository, you can use the conflict editor to resolve the merge conflict. This allows you to pick what changes you'd like to keep.
